@@ -137,7 +137,6 @@ body {
   font-family: 'Ubuntu', sans-serif;
   color: #5E6164;
 }
-h1,
 h2,
 h3,
 h4,
@@ -169,6 +168,8 @@ body nav {
 }
 body nav h1 {
   font-size: 4rem;
+  font-family: 'Russo One', sans-serif;
+  color: #23293B;
   margin-top: 1%;
 }
 body nav div {
@@ -240,11 +241,29 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
-.home .walk .walk-img {
+.home .walk .walk-text .btn {
+  height: 12%;
+}
+.home .walk .walk-text .btn .sign {
+  display: block;
+  background-color: #0d0e25;
+  margin: 0;
+  cursor: pointer;
+  width: 25%;
+  height: 100%;
+  color: white;
+  font-size: 1.4rem;
+  border-radius: 5px;
+}
+.home .walk .walk-text .btn .sign:hover {
+  background-color: white;
+  color: #0d0e25;
+}
+.home .walk .walk-text .walk-img {
   width: 46%;
   margin-left: 4%;
 }
-.home .walk .walk-img img {
+.home .walk .walk-text .walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;

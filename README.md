@@ -64,8 +64,8 @@ Follow these steps to set up your project:
 - [@] Add your project manager as collaborator on Github.
 - [@] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [@] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [@] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [@] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
@@ -108,13 +108,13 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [@] Add a viewport meta tag to the head of your index.html page
 
-* [ ] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
+* [@] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
 
-* [ ] Navigation Styles: Use the `navigation.less` file for styling.
+* [@] Navigation Styles: Use the `navigation.less` file for styling.
 
-* [ ] Main Content Styles: Use the `home-page.less` file for styling
+* [@] Main Content Styles: Use the `home-page.less` file for styling
 
-* [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
+* [@] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
 
 * [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
 

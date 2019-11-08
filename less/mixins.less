@@ -1,1 +1,25 @@
 // Mixins Here
+.display(){
+    display: flex;
+    justify-content:center;
+    
+}
+.color(){
+    font-family: 'Russo One', sans-serif;
+    color: @header-font-color;
+}
+.button(@color,@BC){
+    display: block;
+    background-color:@BC;
+    color: @color;
+    margin: 0;
+    height: 100%;
+    width: 25%;
+    cursor: pointer;
+    font-size: 1.4rem;
+    border-radius: 5px;
+
+    &:hover{
+    background-color: white;
+    color:  rgb(13, 14, 37);}
+}       
